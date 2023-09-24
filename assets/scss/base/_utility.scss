@@ -1,0 +1,42 @@
+.bor-right {
+    @media (min-width:1200px) {
+        border-right: 2px solid #eee;
+    }
+}
+
+.bor-l {
+    @media (min-width:1200px) {
+        padding-left: 20px;
+        border-left: 2px solid #eee;
+    }
+}
+
+.text-lg-preline {
+    @media (min-width: 992px) {
+        white-space: pre-line;
+    }
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+}
+
+.line-clamp-4 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+}
+
+
+.table {
+    @media (max-width: 1400px) {
+       th, td {
+        padding-left: .25rem;
+        padding-right: .25rem;
+       }
+    }
+}
