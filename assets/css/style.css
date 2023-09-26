@@ -49,17 +49,6 @@ a:hover {
   text-decoration: none;
 }
 
-@media (min-width: 1350px) {
-  .container {
-    max-width: 1300px;
-  }
-}
-@media (min-width: 1600px) {
-  .container {
-    max-width: 1510px;
-  }
-}
-
 body {
   font-family: "Inter", sans-serif;
 }
@@ -70,7 +59,7 @@ body {
   font-family: "Inter", sans-serif;
   display: inline-block;
   padding-bottom: 8px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .category-heading-big {
@@ -94,12 +83,7 @@ body {
   color: #000000;
   font-size: 20px;
 }
-@media (min-width: 1600px) {
-  .heading-midium {
-    font-size: 23px;
-  }
-}
-@media (max-width: 991px) {
+@media (max-width: 1399px) {
   .heading-midium {
     font-size: 18px;
   }
@@ -108,22 +92,32 @@ body {
 .heading-midium-v2 {
   font-family: "Calistoga", cursive;
   color: #000000;
-  font-size: 25px;
+  font-size: 20px;
 }
-@media (max-width: 991px) {
+@media (min-width: 992px) and (max-width: 1399px) {
   .heading-midium-v2 {
-    font-size: 20px;
+    font-size: 22px;
+  }
+}
+@media (min-width: 1400px) {
+  .heading-midium-v2 {
+    font-size: 25px;
   }
 }
 
 .heading-large {
   font-family: "Calistoga", cursive;
   color: #000000;
-  font-size: 28px;
+  font-size: 26px;
+}
+@media (min-width: 992px) and (max-width: 1399px) {
+  .heading-large {
+    font-size: 23px;
+  }
 }
 @media (max-width: 991px) {
   .heading-large {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -132,9 +126,9 @@ body {
   color: #000000;
   font-size: 30px;
 }
-@media (min-width: 1600px) {
+@media (min-width: 992px) and (max-width: 1399px) {
   .heading-large-v2 {
-    font-size: 33px;
+    font-size: 27px;
   }
 }
 @media (max-width: 991px) {
@@ -147,6 +141,11 @@ body {
   font-family: "Calistoga", cursive;
   color: #000000;
   font-size: 38px;
+}
+@media (min-width: 992px) and (max-width: 1399px) {
+  .heading-xl {
+    font-size: 35px;
+  }
 }
 @media (max-width: 991px) {
   .heading-xl {
@@ -176,7 +175,7 @@ body {
 
 .paragraph-t1 {
   font-family: "helvetica-regular";
-  font-size: 16px;
+  font-size: 15px;
   color: #333333;
 }
 
@@ -195,10 +194,10 @@ body {
 .number {
   font-family: "Calistoga", cursive;
   color: #b31a1b;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 900;
   margin-right: 20px;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 hr {
@@ -218,8 +217,8 @@ hr {
   }
 }
 
-@media (min-width: 992px) {
-  .text-lg-preline {
+@media (min-width: 1400px) {
+  .text-xxl-preline {
     white-space: pre-line;
   }
 }
@@ -355,7 +354,7 @@ hr {
 }
 .top-navigation .middle-sec .navbar-brand {
   display: inline-block;
-  max-width: 600px;
+  max-width: 500px;
 }
 @media (max-width: 991px) {
   .top-navigation .middle-sec .navbar-brand {
@@ -365,12 +364,12 @@ hr {
 .top-navigation .middle-sec .address {
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   color: #777777;
 }
 @media (max-width: 767px) {
   .top-navigation .middle-sec .address {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 .top-navigation .subscribe-btn {
@@ -413,6 +412,7 @@ hr {
   margin: 0 30px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
+  font-size: 14px;
 }
 .bottom-navigation .nav-link:hover {
   color: #b90000;
@@ -500,4 +500,4 @@ hr {
 
 /*===// end of layout css === */
 /*=== pages start === */
-/*===// end of pages  === *//*# sourceMappingURL=style.css.map */
+/*===// end of pages  === */
