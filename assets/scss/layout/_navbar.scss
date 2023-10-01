@@ -1,5 +1,5 @@
 .top-navigation {
-    border-bottom: 4px solid #b90000;
+    border-bottom: 2px solid #b90000;
     padding: 20px 0;
 
     .middle-sec {
@@ -19,13 +19,13 @@
             color: #777777;
 
             @media(max-width:767px) {
-                font-size: 9px;
+                display: none;
             }
         }
     }
 
     .subscribe-btn {
-        font-size: 16px;
+        font-size: 14px;
         font-family: 'Inter', sans-serif;
         font-weight: 700;
         color: #ffffff;
@@ -42,6 +42,7 @@
 
 .bottom-navigation {
     padding: 15px 0;
+    border-bottom: 1px solid #cccccc;
 
     @media(max-width:991px) {
         overflow-x: scroll;
@@ -59,7 +60,7 @@
 
     .link-wrapper {
         @media(max-width:991px) {
-            width: 900px;
+            width: 740px;
         }
     }
 
